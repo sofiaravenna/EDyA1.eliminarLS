@@ -55,6 +55,7 @@ void eliminar(Lista *listaA, Lista *listaB) {
 
     while(auxA !=NULL){
         Nodo * auxB=listaB->cabecera;
+
         while (auxB != NULL && auxB->valor != auxA->valor){
             ant=auxB;
             auxB=auxB->sig;

@@ -18,7 +18,9 @@ int main() {
     printf("lista B:\n");
     print(listaB);
 
-    eliminar(listaA,listaB);
+    eliminar(listaB,listaA);
+    printf("Repetidos eliminados:\n");
+    print(listaA);
     print(listaB);
     return 0;
 }
